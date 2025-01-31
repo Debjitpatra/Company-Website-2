@@ -3,6 +3,6 @@
     "tailwindcss": "^3.4.17"
   },
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css && mkdir -p dist && cp -r src/* dist && cp -r src/images dist/images"
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css && mkdir -p dist && cp -r src/*.html dist/ && cp -r src/images dist/images && cp -r src/output.css dist/output.css"
   }
 }
